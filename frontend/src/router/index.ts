@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
 import Dashboard from '@/views/Dashboard.vue'
+const Workbench = () => import('@/views/workbench/index.vue')
 const Pipe = () => import('@/views/pipe/index.vue')
 const Manhole = () => import('@/views/manhole/index.vue')
 const Valve = () => import('@/views/valve/index.vue')
@@ -24,6 +25,7 @@ const router = createRouter({
   history: createWebHistory(),
   routes: [
     { path: '/', name: 'dashboard', component: Dashboard },
+    { path: '/workbench', name: 'workbench', component: Workbench },
     { path: '/pipe', name: 'pipe', component: Pipe },
     { path: '/manhole', name: 'manhole', component: Manhole },
     { path: '/valve', name: 'valve', component: Valve },

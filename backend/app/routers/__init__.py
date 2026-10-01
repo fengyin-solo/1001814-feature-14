@@ -8,6 +8,7 @@ from __future__ import annotations
 
 from app.routers import pipe as router_pipe
 from app.routers import manhole as router_manhole
+from app.routers import workbench as router_workbench
 from app.routers import valve as router_valve
 from app.routers import pumpstation as router_pumpstation
 from app.routers import patrol as router_patrol
@@ -25,4 +26,4 @@ from app.routers import complaint as router_complaint
 from app.routers import fund as router_fund
 from app.routers import archive as router_archive
 
-ROUTERS = [router_pipe, router_manhole, router_valve, router_pumpstation, router_patrol, router_defect, router_cctv, router_repair, router_pressure, router_flow, router_leak, router_dredge, router_material, router_equip, router_traffic, router_complaint, router_fund, router_archive]
+ROUTERS = [router_pipe, router_manhole, router_workbench, router_valve, router_pumpstation, router_patrol, router_defect, router_cctv, router_repair, router_pressure, router_flow, router_leak, router_dredge, router_material, router_equip, router_traffic, router_complaint, router_fund, router_archive]
