@@ -24,5 +24,6 @@ from app.routers import traffic as router_traffic
 from app.routers import complaint as router_complaint
 from app.routers import fund as router_fund
 from app.routers import archive as router_archive
+from app.routers import workbench as router_workbench
 
-ROUTERS = [router_pipe, router_manhole, router_valve, router_pumpstation, router_patrol, router_defect, router_cctv, router_repair, router_pressure, router_flow, router_leak, router_dredge, router_material, router_equip, router_traffic, router_complaint, router_fund, router_archive]
+ROUTERS = [router_pipe, router_manhole, router_valve, router_pumpstation, router_patrol, router_defect, router_cctv, router_repair, router_pressure, router_flow, router_leak, router_dredge, router_material, router_equip, router_traffic, router_complaint, router_fund, router_archive, router_workbench]
